@@ -30,4 +30,14 @@ def update_user(id, username):
         db.session.add(user)
         return db.session.commit()
     return None
+
+
+def viewProjects(self):
+    pass
+
+def viewSingleProject(self, projectId):
+    pass
+
+def viewTaskRiskAssessment(self, taskId):
+    pass
     
